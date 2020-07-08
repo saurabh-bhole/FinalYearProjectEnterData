@@ -1,0 +1,90 @@
+@charset "ISO-8859-1";
+
+.avatar{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	position: absolute;
+	top: -46px;
+	left: calc(50% - 40px);
+}
+body{
+	margin:0;
+	padding:0;
+	background-color: #ebf0fa;
+	font-family: serif;
+}
+.form-ele{
+	width: 320px;
+	height: 350px;
+	background: transparent;
+	border: 1px solid #2d5986;
+	color: #000;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+
+
+.form-ele input{
+	width: 90%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+::placeholder{
+	opacity: .5;
+}
+
+.form-ele input[name="a_id"]{
+	margin-top: 60px;
+}
+
+.form-ele input[type="text"]{
+	border: none;
+	border-bottom: 1px solid #2d5986;
+	background: transparent;
+	outline: none;
+	height: 50px;
+	color: #2d5986;
+	font-size: 20px;
+}
+.form-ele input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #2d5986;
+	background: transparent;
+	outline: none;
+	height: 50px;
+	color: #2d5986;
+	font-size: 20px;
+}
+
+.form-ele input[type="submit"]{
+	width: 60%;
+	border: none;
+	ouline: none;
+	height: 40px;
+	background: #2d5986;
+	color: #fff;
+	font-size:16px;
+	border-radius: 20px;
+}
+.form-ele input[type="submit"]:hover{
+	cursor: pointer;
+	background: #3973ac;
+	color: #ebf0fa;
+}
+
+
+
+
+
+
+
+
+
+
+

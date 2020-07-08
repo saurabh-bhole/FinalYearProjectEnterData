@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+body{
+	margin:0;
+	padding:0;
+	background-color: #ebf0fa;
+	font-family: serif;
+}
+.b1{
+	margin-top: 100px;
+}
+
+button{
+	font-family:serif;
+	margin:5px;
+	width: 240px;
+	height: 60px;
+	border: none;
+	ouline: none;
+	height: 40px;
+	background: #2d5986;
+	color: #fff;
+	font-size:20px;
+	border-radius: 20px;
+}
+button:hover{
+	cursor: pointer;
+	background: #3973ac;
+	color: #ebf0fa;
+}

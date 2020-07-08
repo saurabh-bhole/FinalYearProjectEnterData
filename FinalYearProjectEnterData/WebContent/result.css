@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+table td {
+	text-align: center;
+	font-weight:bold;
+	font-size: 25px;
+	font-family: serif;
+}
+
+
+body{
+	margin:0;
+	padding:0;
+	background-color: #ebf0fa;
+	font-family: sans-serif;
+}
+
+.vc{
+	font-size: 35px;
+}
+.l1{
+	font-size: 30px;
+	font-family:serif;
+}
+.l2{
+	font-family: serif;
+	font-size: 40px;
+	color: white;
+	background-color:#19334d;
+}
+
+.b1{
+	width: 150px;
+	border: none;
+	ouline: none;
+	height: 40px;
+	background: #2d5986;
+	color: #fff;
+	font-size:16px;
+	border-radius: 20px;
+}
+
+.b1:hover{
+	cursor: pointer;
+	background: #3973ac;
+	color: #ebf0fa;
+}
